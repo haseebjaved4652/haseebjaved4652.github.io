@@ -100,10 +100,14 @@ button:hover{
     background-color: gray;
 }
 footer{
-    position: fixed;
-
+footer{
+    padding: 15px;
     background-color: #454141;
     overflow: hidden;
     display:flex;
     justify-content: center;
+    color: white;
+    font-size: 24px;
+letter-spacing: 2px;
+}
 }
