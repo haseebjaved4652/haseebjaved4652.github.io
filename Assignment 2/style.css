@@ -1,0 +1,109 @@
+@import url(fontawesome-all.min.css);
+
+
+body{
+    width: 100%;
+    margin: 0%;
+    height: 100%;
+}
+
+.topnav{
+    background-color: #454141;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    left:0;
+    top: 0;
+}
+.topnav ul{
+    display:flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+ .topnav a{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+} .topnav a:hover {
+    background-color: #ffb703;
+    /* text-decoration: none; */
+}
+main{
+    background-color: #555595;
+    padding: 50px;
+}
+section{
+    margin: 50px 0px 
+}
+
+#GithubFrame{
+    text-align: center;
+}
+.peakyBlinderSite{
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+
+#wallpaper{
+
+    border-radius: 1em;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+.row{
+    margin-top: 200px;
+
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}  
+.column{
+    float: left;
+    width: 50%;
+}
+.box{
+    padding: 10px 50px;
+    background-color: papayawhip;
+    margin-left: 50px;
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem gray;
+    width: 400px;
+    
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: normal;
+    color: #555595
+}
+blockquote{
+    color: gray
+}
+button{
+    background-color: #555595; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: gray;
+}
+footer{
+    position: fixed;
+
+    background-color: #454141;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+}
