@@ -1,0 +1,57 @@
+body{
+
+    
+}
+
+.clock-container{
+    display: flex;
+    justify-content: center;
+}            
+.clock{
+    position: relative;
+    background-image: url(images/clockimage.png);    
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    display: block;
+    
+}
+
+#hourHand{
+    position: absolute;
+    top: 42.9%;
+    left: 50.0%;
+    width: 25%;
+    height: 14%;
+    justify-content: center;   
+
+    transform-origin: left ;
+    animation-name: hours;
+    animation-duration: 10s ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite ;
+}
+#minHand{
+    position: absolute;
+    top: 15.0%;
+    left: 44.5%;
+    width: 11%;
+    height: 35%;
+    
+    
+    transform-origin: bottom ;
+    animation-name: minutes ;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes minutes{
+    0%{ transform:rotate(0deg) }
+    100%{ transform:rotate(360deg)}
+}
+
+@keyframes hours {
+    0%{ transform:rotate(0deg) ;}
+    100%{ transform:rotate(30deg) ;}
+}
